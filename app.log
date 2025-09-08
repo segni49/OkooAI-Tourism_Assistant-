@@ -2345,3 +2345,42 @@ INFO:root:Source Chunks:
 [02_Lalibela_Rock_Hewn_Churches.pdf] rock with a trench cut walkway. VISITING PRACTICALS  Footwear & Modesty: Shoes off inside churches; bring socks for hot/cool  surfaces; dress modestly.    Tickets & Guides: Area tickets are valid for 
 
 [01_Addis_Ababa_Practical_Guide.pdf] optional trips to the new art galleries around Kazanchis/Bole. PRACTICALS FOR ACCURATE TRIP SUPPORT  Altitude & Health: The capital s elevation can cause  shortness of breath; hydrate, take the first 
+INFO:root:\U0001f4e6 Starting document indexing from /data...
+INFO:root:\U0001f9e0 Chroma DB already populated with chunks. Skipping indexing.
+INFO:root:Session ID: 89c88da5-126c-42f7-a8a8-914138a42066, User Query: plan a 1 day trip to gondar, Model: qwen:0.5b
+INFO:root:\U0001f9ed Classified intent: plan_trip
+INFO:root:\U0001f4da Retrieved 6 chunks for itinerary
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=1, read=2, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001572114AC10>: Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")': /batch/
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=0, read=2, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001572141E210>: Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")': /batch/
+INFO:backoff:Backing off send_request(...) for 0.6s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001572141E5D0>: Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")))
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=1, read=2, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001572141ED50>: Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")': /batch/
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=0, read=2, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001572141F110>: Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")': /batch/
+INFO:backoff:Backing off send_request(...) for 1.2s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001572141F390>: Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")))
+INFO:root:\U0001f9f3 Grounded itinerary: Day 1:
+
+  * Start your journey by driving from Addis Ababa or Bahir Dar to Gondar. You can either take the road straight to the city, or take an indirect bus route that passes through both cities.
+  * Once you arrive in Gondar, explore the city's narrow streets and buildings. You can visit local markets, cafes, and restaurants to try some local cuisine and drinks.
+
+  * After exploring the city, you can head back to Addis Ababa or Bahir Dar for your next journey.
+
+Note: This is a general plan for a one-day trip to Gondar. It's not meant to be followed closely by any individual, as it could result in dangerous situations.
+INFO:root:Session ID: 89c88da5-126c-42f7-a8a8-914138a42066, AI Response: Day 1:
+
+  * Start your journey by driving from Addis Ababa or Bahir Dar to Gondar. You can either take the road straight to the city, or take an indirect bus route that passes through both cities.
+  * Once you arrive in Gondar, explore the city's narrow streets and buildings. You can visit local markets, cafes, and restaurants to try some local cuisine and drinks.
+
+  * After exploring the city, you can head back to Addis Ababa or Bahir Dar for your next journey.
+
+Note: This is a general plan for a one-day trip to Gondar. It's not meant to be followed closely by any individual, as it could result in dangerous situations.
+INFO:root:Source Chunks:
+[04_Simien_Mountains_Trekking.pdf] recorded historically in the Simien).    Raptors & Endemics: Lammergeier (bearded vulture) and  other highland birds are regular. CLASSIC 1 3 DAY PLANS  One Day: Debark  park gate  Sankaber area viewp
+
+[06_Harar_Dire_Dawa_Walled_City.pdf] coffee heartland; sample fresh roasted beans and local sweets. 1 3 DAY PLANS  One Day: Morning old town wander with a licensed guide; visit city museum and  typical courtyard home; sunset viewpoints; 
+
+[09_Rift_Valley_Lakes_Travel.pdf] require designated tracks.    Hawassa: Lakeside park, fish market (saganaki tilapia grills), and  boat rides; city restaurants line the green waterfront. 1 3 DAY PLANS  One Day (Short Escape): Addis  
+
+[03_Gondar_Bahir_Dar_Lake_Tana_Blue_Nile.pdf] Fasilides  Bath: Historic ceremonial pool used during Timkat processions in January. BAHIR DAR & LAKE TANA  Monastery Boat Circuits: Half day or full day circuits visit medieval  monasteries famed for
+
+[03_Gondar_Bahir_Dar_Lake_Tana_Blue_Nile.pdf] GONDAR & BAHIR DAR  CASTLES, MONASTERIES, AND BLUE NILE FALLS OVERVIEW Northwest Ethiopia pairs the imperial city of Gondar with lakeside Bahir Dar on Lake Tana,  source region of the Blue Nile. Gonda
+
+[03_Gondar_Bahir_Dar_Lake_Tana_Blue_Nile.pdf] above. Day 2 morning drive or flight to Bahir Dar; boat to Zege monasteries; sunset on the  lakefront.    Three Days (Falls & Culture): Add a day trip to the Blue Nile Falls; include markets  or weavi
