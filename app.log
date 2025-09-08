@@ -2275,3 +2275,73 @@ INFO:root:Source Chunks:
 [03_Gondar_Bahir_Dar_Lake_Tana_Blue_Nile.pdf] above. Day 2 morning drive or flight to Bahir Dar; boat to Zege monasteries; sunset on the  lakefront.    Three Days (Falls & Culture): Add a day trip to the Blue Nile Falls; include markets  or weavi
 
 [03_Gondar_Bahir_Dar_Lake_Tana_Blue_Nile.pdf] Fasilides  Bath: Historic ceremonial pool used during Timkat processions in January. BAHIR DAR & LAKE TANA  Monastery Boat Circuits: Half day or full day circuits visit medieval  monasteries famed for
+INFO:root:Session ID: 99316d16-c27a-4474-8e3f-f48378401c30, User Query: plan a trip to lake tana , Model: qwen:0.5b
+INFO:root:\U0001f9ed Classified intent: plan_trip
+INFO:root:\U0001f4da Retrieved 6 chunks for itinerary
+INFO:root:\U0001f9f3 Grounded itinerary: Day 1: Gondar as above.
+Day 2: Morning drive or flight to Bahir Dar; boat to Zege monasteries; sunset on the lakefront.
+Day 3: Market shopping and souvenirs.
+Day 4: Lake Tana visit. 
+Day 5: Return to home via road trip.
+INFO:root:Session ID: 99316d16-c27a-4474-8e3f-f48378401c30, AI Response: Day 1: Gondar as above.
+Day 2: Morning drive or flight to Bahir Dar; boat to Zege monasteries; sunset on the lakefront.
+Day 3: Market shopping and souvenirs.
+Day 4: Lake Tana visit. 
+Day 5: Return to home via road trip.
+INFO:root:Source Chunks:
+[09_Rift_Valley_Lakes_Travel.pdf] require designated tracks.    Hawassa: Lakeside park, fish market (saganaki tilapia grills), and  boat rides; city restaurants line the green waterfront. 1 3 DAY PLANS  One Day (Short Escape): Addis  
+
+[05_Danakil_Depression_Erta_Ale_Dallol.pdf] that require strict path discipline with a local escort.    Lake Assale (Karum): Panoramic salt  flat and traditional salt cutting areas; sunset reflections are a favorite.    Camel Caravans:  Traditi
+
+[09_Rift_Valley_Lakes_Travel.pdf] RIFT VALLEY LAKES  ZIWAY, LANGANO, ABIJATTA SHALLA, HAWASSA OVERVIEW South of Addis Ababa, the Ethiopian Rift strings a series of accessible lakes with  birdlife, resorts, and easy weekend escapes. La
+
+[05_Danakil_Depression_Erta_Ale_Dallol.pdf] Seasons:  The coolest months are roughly November February. June September is intensely hot and generally  avoided by most visitors. SAMPLE 2 3 DAY PLANS  Two Days (Express Highlights): Day 1 Semera/M
+
+[03_Gondar_Bahir_Dar_Lake_Tana_Blue_Nile.pdf] above. Day 2 morning drive or flight to Bahir Dar; boat to Zege monasteries; sunset on the  lakefront.    Three Days (Falls & Culture): Add a day trip to the Blue Nile Falls; include markets  or weavi
+
+[03_Gondar_Bahir_Dar_Lake_Tana_Blue_Nile.pdf] Fasilides  Bath: Historic ceremonial pool used during Timkat processions in January. BAHIR DAR & LAKE TANA  Monastery Boat Circuits: Half day or full day circuits visit medieval  monasteries famed for
+INFO:root:Session ID: 99316d16-c27a-4474-8e3f-f48378401c30, User Query: good you are a good asistant , Model: qwen:0.5b
+INFO:root:\U0001f9ed Classified intent: unsupported
+INFO:root:\U0001f6ab Unsupported query detected.
+INFO:root:Session ID: 99316d16-c27a-4474-8e3f-f48378401c30, AI Response: I do not know and it is not in the data and context provided to me
+INFO:root:Source Chunks:
+
+INFO:root:Session ID: 99316d16-c27a-4474-8e3f-f48378401c30, User Query: world cup 2022, Model: qwen:0.5b
+INFO:root:\U0001f9ed Classified intent: unsupported
+INFO:root:\U0001f6ab Unsupported query detected.
+INFO:root:Session ID: 99316d16-c27a-4474-8e3f-f48378401c30, AI Response: I do not know and it is not in the data and context provided to me
+INFO:root:Source Chunks:
+
+INFO:root:Session ID: 99316d16-c27a-4474-8e3f-f48378401c30, User Query: plan a 2 day trip in ethiopia , Model: qwen:0.5b
+INFO:root:\U0001f9ed Classified intent: plan_trip
+INFO:root:\U0001f4da Retrieved 6 chunks for itinerary
+INFO:root:\U0001f9f3 Grounded itinerary: Day 1: Arrival and Exploration of the Ethiopian Desert
+* Afternoon walk through tunnels to the southern group;
+* Visit local SIMs (Ethio telecom) at the airport and city service centers with passport/ID.
+
+Day 2: Day Trip to the Sacred City of Amoni
+* Visit local SIMs (Ethio telecom) at the airport and city service centers with passport/ID.
+* Have lunch on a nearby street, enjoy the local food, play games like football or soccer, have some tea or coffee, or even listen to music.
+
+Note: This is an example of a two-day trip in Ethiopia. It can be adjusted based on your preferences and interests.
+INFO:root:Session ID: 99316d16-c27a-4474-8e3f-f48378401c30, AI Response: Day 1: Arrival and Exploration of the Ethiopian Desert
+* Afternoon walk through tunnels to the southern group;
+* Visit local SIMs (Ethio telecom) at the airport and city service centers with passport/ID.
+
+Day 2: Day Trip to the Sacred City of Amoni
+* Visit local SIMs (Ethio telecom) at the airport and city service centers with passport/ID.
+* Have lunch on a nearby street, enjoy the local food, play games like football or soccer, have some tea or coffee, or even listen to music.
+
+Note: This is an example of a two-day trip in Ethiopia. It can be adjusted based on your preferences and interests.
+INFO:root:Source Chunks:
+[08_Bale_Mountains_AfroAlpine_Harenna.pdf] escarpment lookouts offer grand views on clear days. 1 3 DAY PLANS  One Day: Early morning drive across Sanetti for wolf searches; picnic at lay by;  short walk on the moorlands.    Two Days: Add Hare
+
+[01_Addis_Ababa_Practical_Guide.pdf] modern history exhibits).    Ethiopian National Theatre area & Meskel Square (civic axis; Meskel  Square hosts large festivals and public gatherings). SUGGESTED 1 3 DAY PLANS  One Day (City Core): Mor
+
+[04_Simien_Mountains_Trekking.pdf] Gear: Warm layers, rain shell, sturdy boots, sun protection; nights are cold even in the dry  season. SAMPLE RAG READY ITINERARIES  Weekend Escarpment : Day 1 Sankaber trails, Day 2 sunrise at Imet  G
+
+[02_Lalibela_Rock_Hewn_Churches.pdf] Worship Rhythm: Expect chants, processions, and white cotton shawls (netela) during high holy days;  plan respectfully around services. SIDE TRIPS  Yemrehanna Kristos: Pre Lalibela cave church (wood a
+
+[02_Lalibela_Rock_Hewn_Churches.pdf] rock with a trench cut walkway. VISITING PRACTICALS  Footwear & Modesty: Shoes off inside churches; bring socks for hot/cool  surfaces; dress modestly.    Tickets & Guides: Area tickets are valid for 
+
+[01_Addis_Ababa_Practical_Guide.pdf] optional trips to the new art galleries around Kazanchis/Bole. PRACTICALS FOR ACCURATE TRIP SUPPORT  Altitude & Health: The capital s elevation can cause  shortness of breath; hydrate, take the first 
