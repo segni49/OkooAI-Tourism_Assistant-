@@ -107,20 +107,3 @@ docker run -p 8000:8000 okooai
 Backend-focused developer, product architect, and technical lead. Specializes in scalable APIs, modular backend systems, and founder-grade polish.
 
 ---
-
-## 🎬 Demo Script
-
-Here’s how to present OkooAI in a live demo or video:
-
-> “Welcome to OkooAI — a tourism assistant for Ethiopia powered by Retrieval-Augmented Generation. Let’s ask it:  
-> _‘Plan a trip to Gondar.’_  
-> The system routes this to the trip planner node, retrieves chunks from our indexed tourism PDFs, and generates a grounded itinerary.  
-> Now let’s try: _‘Who won the African Cup in 2022?’_  
-> Since that’s not in our documents, the system responds:  
-> _‘I do not know and it is not in the data and context provided to me.’_  
-> No guessing. No hallucinations.  
-> That’s founder-grade grounding.”
-
----
-
-Let me know when you’ve added this to your repo — and we’ll jump into **Day 3: Reflection and Hallucination Detection**. Founder-grade polish, no gaps.
