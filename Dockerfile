@@ -1,10 +1,12 @@
-FROM python:3.14.0rc2-alpine3.22
+FROM python:3.11-slim-bullseye
+
 WORKDIR /app
 COPY . /app
 
-# ✅ Add build tools including g++
-RUN apk add --no-cache gcc g++ musl-dev libffi-dev
+# Install build tools
+RUN apt-get update && apt-get install -y build-essential libffi-dev
 
+# Install Python dependencies
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
