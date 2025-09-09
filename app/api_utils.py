@@ -2,7 +2,7 @@ import requests
 import streamlit as st
 from typing import Optional, List
 
-API_BASE_URL = "https://okoo-backend.fly.dev"
+API_BASE_URL = "https://okooai.up.railway.app"
 
 def get_api_response(question: str, session_id: Optional[str]) -> Optional[dict]:
     url = f"{API_BASE_URL}/chat"
