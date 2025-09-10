@@ -7,13 +7,12 @@ __pycache__/
 *.log
 *.gz
 *.zip
-*.pdf
-*.docx
+
 *.md
 *.json
 *.yaml
 *.yml
-*.csv
+
 *.ipynb
 data/
 chroma/
