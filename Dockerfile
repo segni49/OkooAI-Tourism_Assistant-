@@ -1,38 +1,39 @@
-# 🛠️ Stage 1: Build environment
-FROM python:3.11-bookworm AS builder
+# Base slim Python image
+FROM python:3.11-slim
 
+# Set working directory
 WORKDIR /app
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y build-essential
+# Install dependencies for Ollama + Python packages
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    ca-certificates \
+    gcc \
+    git \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
 
-# Copy project files
-COPY . /app
+# Install Ollama
+RUN curl -fsSL https://ollama.com/install.sh | sh
 
-# Upgrade pip and install dependencies
-RUN pip install --upgrade pip
-RUN pip install --no-cache-dir -r requirements.txt
+# Copy requirements and install them
+COPY requirements.txt .
+RUN pip install --upgrade pip setuptools wheel \
+    && pip install --no-cache-dir -r requirements.txt
 
-# 🧼 Optional: clean up cache
-RUN rm -rf ~/.cache
+# Copy app code
+COPY api/ ./api/
+COPY app/ ./app/
+COPY README.md ./README.md
 
-# 🛡️ Stage 2: Runtime environment
-FROM python:3.11-bookworm
+# Pull Ollama embedding model (smaller than LLMs)
+RUN ollama pull nomic-embed-text
 
-# Create non-root user
-RUN adduser --disabled-password --gecos "" okoo
-USER okoo
-
-WORKDIR /app
-
-# Copy installed packages and app code from builder
-COPY --from=builder /app /app
-
-# Set environment variable for Railway
+# Railway expects PORT
 ENV PORT=8000
 
-# Expose FastAPI port
-EXPOSE $PORT
+# Expose the port
+EXPOSE 8000
 
-# Start the FastAPI app
-CMD ["python", "-m", "uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Start backend with uvicorn
+CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]
