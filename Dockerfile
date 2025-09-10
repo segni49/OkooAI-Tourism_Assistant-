@@ -1,7 +1,10 @@
 # 🛠️ Stage 1: Build environment
-FROM python:3.11.10-slim AS builder
+FROM python:3.11-bookworm AS builder
 
 WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y build-essential
 
 # Copy project files
 COPY . /app
@@ -14,7 +17,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN rm -rf ~/.cache
 
 # 🛡️ Stage 2: Runtime environment
-FROM python:3.11.10-slim
+FROM python:3.11-bookworm
 
 # Create non-root user
 RUN adduser --disabled-password --gecos "" okoo
@@ -25,8 +28,11 @@ WORKDIR /app
 # Copy installed packages and app code from builder
 COPY --from=builder /app /app
 
+# Set environment variables (Railway uses PORT)
+ENV PORT=8000
+
 # Expose FastAPI port
-EXPOSE 8000
+EXPOSE $PORT
 
 # Start the FastAPI app
 CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]
