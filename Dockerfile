@@ -26,8 +26,7 @@ RUN pip install --upgrade pip setuptools wheel \
 COPY api/ ./api/
 COPY app/ ./app/
 
-# Pull Ollama embedding model (smaller than LLMs)
-RUN ollama pull nomic-embed-text
+
 
 # Railway expects PORT
 ENV PORT=8000
