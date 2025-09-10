@@ -28,14 +28,15 @@ WORKDIR /app
 # Copy app code
 COPY --from=builder /app /app
 
-# Reinstall uvicorn to ensure it's available
+# Reinstall uvicorn explicitly in runtime stage
 RUN pip install --no-cache-dir uvicorn
 
-# Set environment variables (Railway uses PORT)
+# Set environment variables
 ENV PORT=8000
 
 # Expose FastAPI port
 EXPOSE $PORT
 
 # Start the FastAPI app
-CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]
+ENTRYPOINT ["uvicorn"]
+CMD ["api.main:app", "--host", "0.0.0.0", "--port", "8000"]
