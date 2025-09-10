@@ -1,7 +1,7 @@
 # 🐍 Use lightweight Python base image
 FROM python:3.11-slim
 
-
+# Set working directory
 WORKDIR /app
 
 # Install only what’s needed to build light deps
@@ -19,7 +19,6 @@ RUN pip install --upgrade pip setuptools wheel \
 # Copy only necessary source files
 COPY api/ ./api/
 COPY app/ ./app/
-COPY README.md ./README.md
 
 # Railway expects PORT env variable
 ENV PORT=8000
