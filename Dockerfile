@@ -25,8 +25,11 @@ USER okoo
 
 WORKDIR /app
 
-# Copy installed packages and app code from builder
+# Copy app code
 COPY --from=builder /app /app
+
+# Reinstall uvicorn to ensure it's available
+RUN pip install --no-cache-dir uvicorn
 
 # Set environment variables (Railway uses PORT)
 ENV PORT=8000
