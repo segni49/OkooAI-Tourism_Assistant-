@@ -19,12 +19,12 @@ RUN curl -fsSL https://ollama.com/install.sh | sh
 # Copy requirements and install them
 COPY requirements.txt .
 RUN pip install --upgrade pip setuptools wheel \
-    && pip install --no-cache-dir -r requirements.txt
+    && pip install --no-cache-dir -r requirements.txt \
+    && pip install --no-cache-dir uvicorn gunicorn
 
 # Copy app code
 COPY api/ ./api/
 COPY app/ ./app/
-# COPY README.md ./README.md   # ❌ removed to avoid error
 
 # Pull Ollama embedding model (smaller than LLMs)
 RUN ollama pull nomic-embed-text
