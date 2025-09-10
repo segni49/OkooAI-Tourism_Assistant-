@@ -24,7 +24,7 @@ RUN pip install --upgrade pip setuptools wheel \
 # Copy app code
 COPY api/ ./api/
 COPY app/ ./app/
-COPY README.md ./README.md
+# COPY README.md ./README.md   # ❌ removed to avoid error
 
 # Pull Ollama embedding model (smaller than LLMs)
 RUN ollama pull nomic-embed-text
